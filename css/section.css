@@ -1,19 +1,19 @@
 .section {
     background-color: rgb(255, 255, 255);
     max-width: 800px;
-    margin: auto;
+    margin: 0 auto;
+    border: 0 20px;
+    margin-bottom: 20px;
     box-shadow: 1px 1px 1px 1px white;
-    padding: 20px;
 }
 
 .section__header {
+    margin: 0;
     font-size: 20px;
-    border: 2px solid rgb(0, 0, 0);
-    margin: 20px 20px;
-    padding: 15px;
-    margin-bottom: 3px;
+    padding: 20px;
+    border-bottom: 3px solid rgb(197, 197, 197);
 }
 
 .section__body {
-    margin-bottom: 3px;
-  }
+    padding: 20px;
+}

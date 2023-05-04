@@ -5,8 +5,15 @@
     grid-template-rows: 40px;
 }
 
+@media (max-width:767px) {
+    .form {
+        grid-template-columns: 1fr;
+        grid-template-rows: 40px 40px;
+    }
+}
+
 .form__button {
     background-color: teal;
     color: white;
-    border: none
+    border: none;
 }
