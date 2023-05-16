@@ -1,10 +1,5 @@
 {
-    const tasks = [
-        {
-            content: "make your girlfriend happy",
-            done: true,
-        }
-    ];
+    const tasks = [];
 
     const removeTask = (taskIndex) => {
         tasks.splice(taskIndex, 1);
